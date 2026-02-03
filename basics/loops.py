@@ -21,3 +21,19 @@ for i in range(1,11):
         print(i,"is even")
     else:
         print(i,"is odd")
+
+
+
+# while condition:
+# used when you dont know how many times you want to loop will run
+
+
+# while condition:
+#     code
+
+
+i=1
+
+while i<=5:
+    print(i)
+    i=i+1
