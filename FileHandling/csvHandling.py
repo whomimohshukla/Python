@@ -2,9 +2,19 @@
 
 import csv
 
-with open("users.csv","w",newline="") as file:
-    writer=csv.writer(file)
-    writer.writerow(["Name","Age","City"])
-    writer.writerow(["Alice",30,"New York"])
-    writer.writerow(["Bob",25,"Los Angeles"])
-    writer.writerow(["Charlie",35,"Chicago"])
+# with open("users.csv","w",newline="") as file:
+#     writer=csv.writer(file)
+#     writer.writerow(["Name","Age","City"])
+#     writer.writerow(["Alice",30,"New York"])
+#     writer.writerow(["Bob",25,"Los Angeles"])
+#     writer.writerow(["Charlie",35,"Chicago"])
+
+
+
+# reading the csv file
+
+with open("users.csv","r") as file:
+    reader=csv.reader(file)
+    for row in reader:
+        print(row)
+
