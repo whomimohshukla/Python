@@ -9,7 +9,11 @@ file.write("This is the second line\n")
 file.close()
 
 
-# // reading the file
+# # // reading the file
 
-file=open("./data.txt","r")
-print(file.read())
+# file=open("./data.txt","r")
+# print(file.read())
+
+file = open("data.txt", "a")
+file.write("\nAppending new line")
+file.close()
