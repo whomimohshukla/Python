@@ -1,3 +1,15 @@
+
+# notes
+
+# json.dump(data, file, indent=4)
+# json.dump(data, file, indent=4, sort_keys=True)  
+ # Sort keys alphabetically      
+ # sort_keys=True
+ # sort_keys=False
+ 
+
+
+
 import json
 
 data = {
